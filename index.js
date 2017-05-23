@@ -1,6 +1,6 @@
 'use strict';
 
-const homedir = require('os').homedir;
+const {homedir} = require('os');
 
 const enumerateFiles = require('enumerate-files');
 
