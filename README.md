@@ -34,13 +34,14 @@ npm install home-files
 const homeFiles = require('home-files');
 ```
 
-### homeFiles()
+### homeFiles([*options*])
 
+*options*: `Object` (used as [`readdir-sorted` options](https://github.com/shinnn/readdir-sorted#readdirsortedpath--options))  
 Return: `Promise<Set<string>>`
 
-Almost the same as the [Node.js](https://nodejs.org/) built-in [`fs.home-files`](https://nodejs.org/api/fs.html#fs_fs_home-files_path_callback), but:
-
 The promise will be fulfilled with a [`Set`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set) of strings — absolute paths of all *files* included in the home directory. Symbolic links and directories are excluded.
+
+Options are directly passed to the underlying [`readdir-sorted`](https://github.com/shinnn/readdir-sorted) to control the order of results.
 
 ## License
 
