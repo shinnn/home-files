@@ -41,7 +41,7 @@ test('homeFiles()', async t => {
   } catch ({message}) {
     t.strictEqual(
       message,
-      'Expected 1 or 2 arguments (path: String[, options: Object]), but got 3 arguments.',
+      'Expected 0 or 1 argument (Object), but got 2 arguments.',
       'should invalidate too many arguments.'
     );
   }
