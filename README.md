@@ -1,6 +1,6 @@
 # home-files
 
-[![NPM version](https://img.shields.io/npm/v/home-files.svg)](https://www.npmjs.com/package/home-files)
+[![npm version](https://img.shields.io/npm/v/home-files.svg)](https://www.npmjs.com/package/home-files)
 [![Build Status](https://travis-ci.org/shinnn/home-files.svg?branch=master)](https://travis-ci.org/shinnn/home-files)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/home-files.svg)](https://coveralls.io/github/shinnn/home-files?branch=master)
 
@@ -9,7 +9,7 @@ List all files in the [home directory](https://nodejs.org/api/os.html#os_os_home
 ```javascript
 const homeFiles = require('home-files');
 
-async () => await homeFiles() /* => Set {
+(async () => await homeFiles() /* => Set {
   '/Users/shinnn/.DS_Store',
   '/Users/shinnn/.bash_history',
   '/Users/shinnn/.bash_profile',
@@ -17,7 +17,7 @@ async () => await homeFiles() /* => Set {
   '/Users/shinnn/.gitconfig',
   ...
   '/Users/shinnn/.zshrc'
-} */);
+} */)();
 ```
 
 ## Installation
