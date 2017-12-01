@@ -1,43 +1,43 @@
 {
-  "name": "home-files",
-  "version": "0.7.0",
-  "description": "List all files in the home directory",
-  "repository": "shinnn/home-files",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
-  "scripts": {
-    "pretest": "eslint --fix --format=codeframe index.js test.js",
-    "test": "nyc node --throw-deprecation test.js"
-  },
-  "license": "ISC",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "home",
-    "homedir",
-    "files",
-    "path",
-    "absolute",
-    "list",
-    "set",
-    "enumerate",
-    "filter",
-    "promise",
-    "async"
-  ],
-  "dependencies": {
-    "enumerate-files": "^1.0.0"
-  },
-  "devDependencies": {
-    "@shinnn/eslint-config-node": "^4.0.2",
-    "eslint": "^4.7.2",
-    "nyc": "^11.2.1",
-    "tape": "^4.8.0"
-  },
-  "eslintConfig": {
-    "extends": "@shinnn/node",
-    "rules": {
-      "require-await": "off"
-    }
-  }
+	"name": "home-files",
+	"version": "0.7.0",
+	"description": "List all files in the home directory",
+	"repository": "shinnn/home-files",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"scripts": {
+		"pretest": "eslint --fix --format=codeframe index.js test.js",
+		"test": "nyc node --throw-deprecation test.js"
+	},
+	"license": "ISC",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"home",
+		"homedir",
+		"files",
+		"path",
+		"absolute",
+		"list",
+		"set",
+		"enumerate",
+		"filter",
+		"promise",
+		"async"
+	],
+	"dependencies": {
+		"enumerate-files": "^1.0.0"
+	},
+	"devDependencies": {
+		"@shinnn/eslint-config-node": "^5.0.0",
+		"eslint": "^4.12.1",
+		"nyc": "^11.4.0",
+		"tape": "^4.8.0"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn/node",
+		"rules": {
+			"require-await": "off"
+		}
+	}
 }
