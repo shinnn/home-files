@@ -1,6 +1,6 @@
 {
 	"name": "home-files",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "List all files in the home directory",
 	"repository": "shinnn/home-files",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -30,7 +30,7 @@
 	},
 	"devDependencies": {
 		"@shinnn/eslint-config-node": "^5.0.0",
-		"eslint": "^4.12.1",
+		"eslint": "^4.13.1",
 		"nyc": "^11.4.0",
 		"tape": "^4.8.0"
 	},
