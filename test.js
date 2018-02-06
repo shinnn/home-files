@@ -29,7 +29,7 @@ test('homeFiles()', async t => {
 	try {
 		await homeFiles({caseFirst: true});
 	} catch ({message}) {
-		t.strictEqual(
+		t.equal(
 			message,
 			'Expected `caseFirst` option to be one of \'upper\', \'lower\', or \'false\', but got true (boolean).',
 			'should use the argument as readdir-sorted options.'
@@ -39,9 +39,9 @@ test('homeFiles()', async t => {
 	try {
 		await homeFiles({}, {});
 	} catch ({message}) {
-		t.strictEqual(
+		t.equal(
 			message,
-			'Expected 0 or 1 argument (Object), but got 2 arguments.',
+			'Expected 0 or 1 argument (<Object>), but got 2 arguments.',
 			'should invalidate too many arguments.'
 		);
 	}

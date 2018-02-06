@@ -26,18 +26,15 @@
 		"async"
 	],
 	"dependencies": {
-		"enumerate-files": "^1.0.0"
+		"enumerate-files": "^2.0.0"
 	},
 	"devDependencies": {
 		"@shinnn/eslint-config-node": "^5.0.0",
-		"eslint": "^4.13.1",
-		"nyc": "^11.4.0",
+		"eslint": "^4.17.0",
+		"nyc": "^11.4.1",
 		"tape": "^4.8.0"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn/node",
-		"rules": {
-			"require-await": "off"
-		}
+		"extends": "@shinnn/node"
 	}
 }

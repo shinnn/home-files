@@ -45,4 +45,4 @@ Options are directly passed to the underlying [`readdir-sorted`](https://github.
 
 ## License
 
-[ISC License](./LICENSE) © 2017 Shinnosuke Watanabe
+[ISC License](./LICENSE) © 2017 - 2018 Shinnosuke Watanabe
